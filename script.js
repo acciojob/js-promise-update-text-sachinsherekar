@@ -21,6 +21,6 @@ function updateTextAfterDelay(){
 	});
 }
 	const outputElement =document.getElementById('output');
-	updateTextAfterDelay().then((message)=>{
+	updateTextAfterDelay().then((message) => {
 		outputElement.textContent =message;
 	});
